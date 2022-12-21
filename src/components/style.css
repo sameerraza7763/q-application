@@ -1,0 +1,239 @@
+.company-name{
+       font-size: 17px;
+}
+.modal-body {
+    height: 500px !important ;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.since {
+margin-top: 10px;
+font-size: 15px;
+}
+.since h3{
+  font-size: 17px;
+}
+.since select{
+    width: 100px;
+}
+.timing{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.timing h3{
+  font-size: 15px;
+}
+.timing-div input{
+    width: 130px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 10p
+}
+.image input {
+    width: 160px;
+    margin-top: 10px;
+}
+  .image #file{
+  margin-top: -31px;
+ height: 35px;
+ font-size: 17px;
+}
+.image h3{
+  font-size: 17px;
+  margin-top: 10px;
+}
+#btn {
+    margin-left: 60px;
+    height: 100px;
+    width: 300px;
+
+}
+
+.modal-body {
+    height: 600px !important;
+    background-color: #0d6efd;
+    
+}
+.modal-body input{
+  border: none;
+  height: 40px !important;
+  font-size: 19px;
+}
+#Address{
+    margin-top: 9px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+#Address h1{
+    font-size: 17px ;
+}
+#Address input{
+  width: 100px;
+  height: 30px;
+  margin-top: -20px;
+  font-size: 17px;
+}
+#Starttime h3{
+  margin-top: 50px;
+  font-size: 17px;
+}
+#Starttime input{
+  margin-top: -10px;
+  width: 140px;
+  height: 30px;
+  font-size: 18px;
+}
+#Endtime {
+  font-size: 17px;
+}
+#Endtime h3 {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  #root {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    
+    height: 100%;
+    width: 100%;
+  }
+  
+  span {
+    font-size: 40px;
+  }
+  
+  .dark-mode {
+    background-color: #1a1919;
+    color: #999;
+    height: 100%;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #333;
+    height: 100%;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 14px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #19a2c1;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .switch-checkbox {
+    padding: 10px;
+  }
+  .dark-mode{
+    height: 100%;
+  }
+  .siginBtns{
+    margin-top: 140px;
+ 
+  }
+
+  .continueSignup {
+  border: none;
+    height: 80px;
+    width: 270px;
+    font-size: 20px;
+    border-radius: 10px  ;
+  
+  }
+   
+#starttime{
+  margin-top: 19px;
+}
+.company-li:hover{
+color: #19a2c1;
+}
+#mycompanies{
+  margin-top: 90px;
+}

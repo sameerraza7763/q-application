@@ -1,0 +1,73 @@
+#ul li{
+       
+       
+        font-size: 50px;
+        font-weight: bold; 
+        margin-top: 60px;
+        font-family: sans-serif;
+        cursor: pointer;
+        list-style: none;;
+     
+    
+      }
+
+   
+      body{
+      
+       
+      
+        background-image: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg');
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        /* background-position: left top; */
+        background-color: white;
+       
+        
+      }
+      #ul li img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+      }
+      #ul:hover{
+        color: rebeccapurple;
+        cursor: pointer;
+      }
+      .doctor-image{
+        width: 5px;
+      }
+      .address-show{
+        font-weight: bold;
+        font-size: 17px;
+      }
+  #company-names {
+    width: 600px;
+    height: 300px;
+   border: skyblue 1px solid;
+    font-size: 70px;
+    color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top:30px;
+    display: flex;
+  }
+ 
+  .heading-company{
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+#btn-warning {
+
+  display: block;
+  margin-top: 190px;
+  margin-right: 10px;
+
+}
+#btn-Danger {
+ display: block;
+margin-top: 190px;
+
+}
